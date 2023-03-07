@@ -1,0 +1,17 @@
+[GIN-debug] GET    /board                    --> github.com/choisangh/board-crud-backend/pkg/api.(*APIs).GetBoardList-fm (4 handlers)
+[GIN-debug] POST   /board                    --> github.com/choisangh/board-crud-backend/pkg/api.(*APIs).CreateBoard-fm (4 handlers)
+[GIN-debug] GET    /board/:id                --> github.com/choisangh/board-crud-backend/pkg/api.(*APIs).GetBoardByID-fm (4 handlers)
+[GIN-debug] PATCH  /board/:id                --> github.com/choisangh/board-crud-backend/pkg/api.(*APIs).UpdateBoard-fm (4 handlers)
+[GIN-debug] DELETE /board/:id                --> github.com/choisangh/board-crud-backend/pkg/api.(*APIs).DeleteBoardByID-fm (4 handlers)
+[GIN-debug] POST   /user/register            --> github.com/choisangh/board-crud-backend/pkg/api.(*APIs).CreateUser-fm (4 handlers)
+[GIN-debug] POST   /user/login               --> github.com/choisangh/board-crud-backend/pkg/api.(*APIs).LoginUser-fm (4 handlers)
+[GIN-debug] GET    /users/:id                --> github.com/choisangh/board-crud-backend/pkg/api.(*APIs).GetUserByID-fm (4 handlers)
+[GIN-debug] GET    /user/current             --> github.com/choisangh/board-crud-backend/pkg/api.(*APIs).GetUserCurrent-fm (5 handlers)
+[GIN-debug] GET    /userlist                 --> github.com/choisangh/board-crud-backend/pkg/api.(*APIs).GetUserList-fm (5 handlers)
+[GIN-debug] OPTIONS /*path                    --> github.com/choisangh/board-crud-backend/pkg/router.handleOptions (4 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :5001
+[GIN-debug] redirecting request 301: /user/current --> /user/current
+[GIN-debug] redirecting request 301: /user/current --> /user/current
+[GIN-debug] redirecting request 301: /user/current --> /user/current
