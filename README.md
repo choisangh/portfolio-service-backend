@@ -1,6 +1,7 @@
 # Board CRUD API using Golang Gin
 * This is a web service project built with Golang Gin framework that allows users to register and view their portfolios.
-* Ref : https://github.com/MongLong0214/BoardCRUD
+* Implement the backend to match the API endpoints called by the open source frontend
+  - Ref : https://github.com/MongLong0214/BoardCRUD
 
 ## Prerequisites
 * Golang 1.2 or higher
