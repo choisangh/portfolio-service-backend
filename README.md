@@ -20,8 +20,8 @@ go mod download
 
 
 ```bash
-MYSQL_URI=<MySQL uri>
-JWT_SECRET=<your jwt secret key>
+MYSQL_URI = <MySQL uri>
+JWT_SECRET = <your jwt secret key>
 ```
 
 4. Run the project by running the following command:
